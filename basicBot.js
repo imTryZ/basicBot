@@ -42,7 +42,7 @@
         if (typeof chat === "undefined") {
             API.chatLog("There is a chat text missing.");
             console.log("There is a chat text missing.");
-            return "[Error] No text message found.";
+            return "[Erro] Nenhum texto encontrado.";
         }
         var lit = '%%';
         for (var prop in obj) {
@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Yemasthui/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/motelbible/basicBot/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -175,28 +175,29 @@
     };
 
     var botCreator = "Matthew (Yemasthui)";
-    var botMaintainer = "Benzi (Quoona)"
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botMaintainer = "Benzi (Quoona)";
+    var botTranslator = "Fernando (Motel Bible)"
+    var botCreatorIDs = ["3851534", "4105209", "3560111"];
 
     var basicBot = {
         version: "2.3.3",
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        scriptLink: "https://rawgit.com/motelbible/basicBot/master/basicBot.js",
+        cmdLink: "http://git.io/veGHZ",
+        chatLink: "https://rawgit.com/motelbible/basicBot/master/lang/pn.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "basicBot",
-            language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            language: "portuguese",
+            chatLink: "https://rawgit.com/motelbible/basicBot/master/lang/pt.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupEmoji: false, // true ou false
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
@@ -217,54 +218,53 @@
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
-                ["theme", "This song does not fit the room theme. "],
-                ["op", "This song is on the OP list. "],
-                ["history", "This song is in the history. "],
-                ["mix", "You played a mix, which is against the rules. "],
-                ["sound", "The song you played had bad sound quality or no sound. "],
-                ["nsfw", "The song you contained was NSFW (image or sound). "],
-                ["unavailable", "The song you played was not available for some users. "]
+                ["tema", "A música não se encaixa nos padrões da sala. "],
+        	["op", "Essa música está na lista OP. "],
+        	["historico", "A música ainda está no histórico. "],
+        	["mix", "Você tocou um mix (muito longo) - não permitido. "],
+        	["som", "A música que você tocou tinha má qualidade ou estava sem som. "],
+        	["nsfw", "A música que você tocou é NSFW (impróprio). "],
+        	["indisponivel", "A música que você tocou está indisponível. "]
             ],
             ball: [
-            "Signs point to yes.",
-            "Yes.",
-            "Reply hazy, try again.",
-            "Without a doubt.",
-            "My sources say no.",
-            "As I see it, yes.",
-            "You may rely on it.",
-            "Concentrate and ask again.",
-            "Outlook not so good.",
-            "It is decidedly so.",
-            "Better not tell you now.",
-            "Very doubtful.",
-            "Yes - definitely.",
-            "It is certain.",
-            "Cannot predict now.",
-            "Most likely.",
-            "Ask again later.",
-            "My reply is no.",
-            "Outlook good.",
-            "Don't count on it.",
-            "Yes, in due time.",
-            "My sources say no.",
-            "Definitely not.",
-            "You will have to wait.",
-            "I have my doubts.",
-            "Outlook so so.",
-            "Looks good to me!",
-            "Who knows?",
-            "Looking good!",
-            "Probably.",
-            "Are you kidding?",
-            "Don't bet on it.",
-            "Forget about it."
+            "Os sinais apontam para sim.",
+            "Sim.",
+            "Não sei...",
+            "Sem dúvida.",
+            "Minhas fontes dizem não.",
+            "Pelo o que vejo, sim.",
+            "Acredito que sim.",
+            "Concentre-se e pergunte novamente.",
+            "Não soa muito bem.",
+            "Foi decidido que sim.",
+            "Melhor não te dizer agora.",
+            "Muito duvidoso.",
+            "Sim! Definitivamente.",
+            "É certo!.",
+            "Não consigo prever agora.",
+            "Provavelmente.",
+            "Pergunte-me depois.",
+            "Minha resposta é não.",
+            "Parece bom.",
+            "Não conte com isso.",
+            "Sim, a tempo.",
+            "Minhas fontes dizem que não.",
+            "Definitivamente não.",
+            "Você terá que esperar.",
+            "Eu tenho minhas dúvidas.",
+            "Mais ou menos.",
+            "Claro!!!",
+            "Quem sabe?",
+            "Talvez.",
+            "Tá de brincadeira?",
+            "Não aposte nisso.",
+            "Esqueça isso."
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "Mensagem temporária do dia",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
@@ -279,8 +279,8 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+                NSFW: "https://rawgit.com/motelbible/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+                OP: "https://rawgit.com/motelbible/basicBot-customization/master/blacklists/ExampleOPlist.json"
             }
         },
         room: {
@@ -2816,7 +2816,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
+                        API.sendChat('/me Este bot foi criado por ' + botCreator + ', mas agora é mantido por ' + botMaintainer + ' e traduzido por ' + botTranslator + '.");
                     }
                 }
             },
