@@ -176,8 +176,7 @@
 
     var botCreator = "Matthew (Yemasthui)";
     var botMaintainer = "Benzi (Quoona)";
-    var botTranslator = "Fernando (Motel Bible)"
-    var botCreatorIDs = ["3851534", "4105209", "3560111"];
+    var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
         version: "2.3.3",
@@ -2816,7 +2815,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        //API.sendChat('/me Este bot foi criado por ' + botCreator + ', mas agora é mantido por ' + botMaintainer + ' e traduzido por ' + botTranslator + ".");
+                        API.sendChat('/me Este bot foi criado por ' + botCreator + ', mas agora é mantido por ' + botMaintainer + '.);
                     }
                 }
             },
