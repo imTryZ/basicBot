@@ -176,7 +176,8 @@
 
     var botCreator = "Matthew (Yemasthui)";
     var botMaintainer = "Benzi (Quoona)";
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botTranslator = "Fernando (Motel Bible)";
+    var botCreatorIDs = ["3851534", "4105209", "3560111"];
 
     var basicBot = {
         version: "2.3.3",
@@ -185,7 +186,7 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/motelbible/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/veGHZ",
-        chatLink: "https://rawgit.com/motelbible/basicBot/master/lang/pn.json",
+        chatLink: "https://rawgit.com/motelbible/basicBot/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -2815,7 +2816,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
+                        API.sendChat('/me Foi criado por ' + botCreator + ', mas agora é mantido por ' + botMaintainer + ' e traduzido por ' + botTranslator + ".");
                     }
                 }
             },
