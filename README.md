@@ -1,56 +1,47 @@
 basicBot
 ========
 
-A not so basic bot for plug.dj 
+Um bot não tão básico para o plug.dj
 
-[GET THE GOOGLE CHROME EXTENSION HERE!!!](http://s.bnzi.uk/bscbtxtnsn)
+[CONSIGA A EXTENSÃO DO GOOGLE CHROME AQUI!!!](http://s.bnzi.uk/bscbtxtnsn)
 ---------------------------------------------------------------------
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Yemasthui/basicBot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![facebook group](http://i.bnzi.uk/97dW.svg)](https://facebook.com/groups/basicBot) [![twitter](http://i.bnzi.uk/4KEn.svg)](https://twitter.com/bscBt)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/motelbible/basicBot)
 
-Stay updated on **basicBot**'s development by following the project on Twitter [@bscBt](http://twitter.com/bscBt)
+Criado por [Yemasthui](https://github.com/Yemasthui) mas agora mantido por [Benzi](https://github.com/Benzi) e traduzido por [Motel Bible](https://github.com/motelbible)
 
-Created by [Yemasthui](https://github.com/Yemasthui) but now maintained by [Benzi](https://github.com/Benzi).
+(Você pode me mandar uma mensagem no [Gitter](https://gitter.im/motelbible) se tiver alguma dúvida ou problema com o bot)
 
-(You can email me via hi@benzi.io or send me a message on [Gitter](https://gitter.im/Benzi) if you have any queries about the bot)
-
-!!!TO CUSTOMIZE: USE [THIS REPOSITORY](https://github.com/Yemasthui/basicBot-customization)!!!
+!!!PARA CUSTOMIZAR: USE [ESTE REPOSITÓRIO](https://github.com/motelbible/basicBot-customization)!!!
 ==============================================================================================
 
-IMPORTANT
----------
+IMPORTANTE
+----------
 
-__basicBot has been updated to work under plug's update. There may still be bugs and functionality is not guaranteed.__
+__basicBot tem sido atualizado para funcionar com a nova atualização do plug.dj. Ainda podem haver erros e bugs.__
 
-__Make sure to update your bookmark, as the link has changed recently!!!__
+__Certifique-se de atualizar seu atalho na barra dos favoritos já que o link mudou recentemente!!!__
 
-__Important changes in version 2.x.x:__
+__Mudanças importantes na versão 2.x.x:__
 
-- Now should be fully compatible with Firefox.
-- You can now change the bot's name, no need to make a fork to change it anymore. Available under custom settings as "botName".
-- The bot's variable is now exposed outside of the script. You can access it as the variable "bot" in the console. This should allow for secondary scripts extending the bot without the need to fork and lose support on its basis.
-Be careful when extending it to make sure commands or features interact properly with the rest of them.
-An example script to extend the bot is provided under exampleExtension.js. Please do not fork this repository to just change that file. Details of how to use are provided inside.
-This is NOT needed to run the bot as it is provided, only if you want to add functionality.
-- Command checking has been reworked to facilitate adding commands through secondary scripts as explained above.
-- __There is now support for custom chat messages. This means you can use your own custom wording or translate it into your own language.__
+- Agora totalmente compatível com Firefox.
+- Você pode mudar o nome do bot sem precisar fazer cópia (fork) do repositório. Disponível em configurações personalizadas como "botName".
+- A variável do bot está agora exposta fora do script. Isso deve permitir a extensão de scripts secundários sem precisar fazer cópia do repositório e perder o suporte de sua base.
+- __Agora há suporte à chat personalizado. Isso significa que você pode criar seu próprio dicionário de palavras ou traduzir o mesmo para sua própria língua.__
 
-Usage
------
+Uso
+---
 
-Bookmark the following code. To run the bot, run the bookmark.
+Adicione o código abaixo à barra de favoritos do seu navegador. Para iniciar o bot, clique no script.
 
-`javascript:(function(){$.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js');})();`
+`javascript:(function(){$.getScript('https://rawgit.com/motelbible/basicBot/master/basicBot.js');})();`
 
-If this does not work, go to https://raw.githubusercontent.com/Yemasthui/basicBot/master/basicBot.js and copy paste its content into your console (accessible in chrome by pressing f12) when on plug.dj in your community.
+Se não funciona, acesse https://rawgit.com/Yemasthui/motelbible/master/basicBot.js , copie todo o seu conteúdo e cole no console javascript do seu navegador (F12) quando estiver na janela do plug.dj em sua comunidade.
 
-###Commands###
+###Comandos###
 
-These can be found in [the commands file](https://github.com/Yemasthui/basicBot/blob/master/commands.md).
+Os comandos podem ser encontrados [aqui](https://github.com/Yemasthui/basicBot/blob/master/commands.md).
 
-###Blacklists###
-Examples of blacklists can be found in [the customization repository](https://github.com/Yemasthui/basicBot-customization/tree/master/blacklists).
-You can add blacklists in the settings of the bot via the methods given in that same repository. See below for more information.
 
 ###Extending functionality and custom default settings###
 
