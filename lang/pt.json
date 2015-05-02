@@ -104,8 +104,8 @@
     "emojilist": "/me Emojis: %%LINK%%",
     "notinwaitlist": "@%%NAME%%, você não está na lista de espera.",
     "eta": "/me @%%NAME%% você tocará em aproximadamente %%TIME%%.",
-    "facebook": "/me Curta nossa página no Facebook: %%LINK%%",
-    "starterhelp": "/me Essa imagem te ajudará a usar e entender o plug.dj: %%LINK%%",
+    "facebook": "/me %%LINK%%",
+    "starterhelp": "/me Esse tópico te ajudará a entender o plug.dj: http://goo.gl/QJwXCQ",
     "roulettejoin": "/me @%%NAME%% entrou na roleta! (Use !leave para sair da mesma.)",
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% esteve na sala por %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Você não pode kickar alguém do mesmo rank ou superior!",
@@ -147,8 +147,8 @@
     "unmuterank": "/me [@%%NAME%%] Você não pode desmutar usuários do mesmo rank ou superior.",
     "commandscd": "/me [@%%NAME%%] O tempo de espera de comandos para usuários agora é %%TIME%% segundos.",
     "voteratio": "/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, ratio (w/m): %%RATIO%%.",
-    "website": "/me Visite nosso site: %%LINK%%",
-    "youtube": "/me [%%NAME%%] Inscreva-se no nosso canal: %%LINK%%",
+    "website": "/me %%LINK%%",
+    "youtube": "/me %%LINK%%",
     "songstatistics": "/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M.",
     "purchase": "/me [@%%NAME%%] Compre mais Plug Notes: https://plug.dj/purchase"
 }
