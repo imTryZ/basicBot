@@ -20,7 +20,7 @@ Coordenador
 |!usercommands | | Ativa/destiva os comandos para usuários comuns |
 |!voteskip | X | quando não há argumento, mostra o limite do 'voteskip', quando X for especificado, o limite do 'voteskip' será definido para o limite especificado. |
 
-Segurança+
+Segurança+ 
 ----------
 
 |Comando | Argumentos |  Descrição |
