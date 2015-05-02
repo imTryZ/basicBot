@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/motelbible/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("hhttps://rawgit.com/imTryZ/basicBot/master/lang/pt.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -194,7 +194,7 @@
         settings: {
             botName: "basicBot",
             language: "portuguese",
-            chatLink: "https://rawgit.com/motelbible/basicBot/master/lang/pt.json",
+            chatLink: "https://rawgit.com/imTryZ/basicBot/master/lang/pt.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true ou false
