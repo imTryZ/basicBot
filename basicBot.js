@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("hhttps://rawgit.com/imTryZ/basicBot/master/lang/pt.json", function (json) {
+        $.get("https://rawgit.com/imTryZ/basicBot/master/lang/pt.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
