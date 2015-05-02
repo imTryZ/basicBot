@@ -1704,7 +1704,7 @@
             },
 
             commandsCommand: {
-                command: 'commands',
+                command: 'comandos',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -3256,7 +3256,7 @@
             },
 
             websiteCommand: {
-                command: 'website',
+                command: 'forum',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -3270,7 +3270,7 @@
             },
 
             whoisCommand: {
-                command: 'whois',
+                command: 'sobre',
                 rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
