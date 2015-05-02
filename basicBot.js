@@ -192,7 +192,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "caliBot",
             language: "portuguese",
             chatLink: "https://rawgit.com/imTryZ/basicBot/master/lang/pt.json",
             startupCap: 1, // 1-200
@@ -272,9 +272,9 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: null,
-            youtubeLink: null,
-            website: null,
+            fbLink: "/me No momento não temos uma página no facebook, porém, o link de nosso fórum é http://goo.gl/9ku6fp",
+            youtubeLink: "/me No momento não temos um canal no youtube, porém, o link de nosso fórum é http://goo.gl/9ku6fp",
+            website: "/me O link de nosso fórum é http://goo.gl/9ku6fp",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
