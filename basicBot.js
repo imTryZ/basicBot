@@ -184,8 +184,8 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/motelbible/basicBot/master/basicBot.js",
-        cmdLink: "http://git.io/veGHZ",
+        scriptLink: "https://rawgit.com/imTryZ/basicBot/master/basicBot.js",
+        cmdLink: "http://goo.gl/U2R2Nq",
         chatLink: "https://rawgit.com/imTryZ/basicBot/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
@@ -280,8 +280,8 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/motelbible/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/motelbible/basicBot-customization/master/blacklists/ExampleOPlist.json"
+                NSFW: "https://rawgit.com/imTryZ/basicBot-customization/master/blacklists/BL1.json",
+                OP: "https://rawgit.com/imTryZ/basicBot-customization/master/blacklists/ExampleOPlist.json"
             }
         },
         room: {
