@@ -3270,7 +3270,7 @@
             },
 
             whoisCommand: {
-                command: 'sobre',
+                command: 'info',
                 rank: 'bouncer',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
