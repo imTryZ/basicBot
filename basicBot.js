@@ -2096,7 +2096,7 @@
             },
 
             helpCommand: {
-                command: 'help',
+                command: 'ajuda',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2644,7 +2644,7 @@
             },
 
             purchaseCommand: {
-                command: ['purchase'],
+                command: ['assinar'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
