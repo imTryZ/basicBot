@@ -2643,8 +2643,8 @@
                 }
             },
             
-            FusyonCommand: {
-                command: 'Fusyon',
+            lemonCommand: {
+                command: 'lemon',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
