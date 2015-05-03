@@ -2229,8 +2229,8 @@
                 }
             },
 
-            leaveCommand: {
-                command: 'leave',
+            sairCommand: {
+                command: 'sair',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
