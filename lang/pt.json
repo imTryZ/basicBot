@@ -5,7 +5,7 @@
     "datarestored": "Dados armazenados anteriormente recuperados com êxito.",
     "greyuser": "Apenas Seguranças ou superiores podem usar o chatbot.",
     "bouncer": "O chatbot não pode mover pessoas na fila de espera quando usado por um bouncer.",
-    "online": "/me %%BOTNAME%% acaba de ser ativado!",
+    "online": "/me %%BOTNAME%% acaba de ser iniciado!",
 
 
     "welcome": "Bem vindo(a), %%NAME%%",
