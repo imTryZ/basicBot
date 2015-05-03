@@ -2450,8 +2450,8 @@
                 }
             },
 
-            maxlengthCommand: {
-                command: 'maxlength',
+            duracaoCommand: {
+                command: 'duracao',
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
