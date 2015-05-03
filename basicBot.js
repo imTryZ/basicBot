@@ -898,7 +898,7 @@
                 }
             }
 
-            /*var alreadyPlayed = false;
+            /*var alreadyPlayed = true;
             for (var i = 0; i < basicBot.room.historyList.length; i++) {
                 if (basicBot.room.historyList[i][0] === obj.media.cid) {
                     var firstPlayed = basicBot.room.historyList[i][1];
@@ -2129,8 +2129,8 @@
                 }
             },
 
-            joinCommand: {
-                command: 'join',
+            entrarCommand: {
+                command: 'entrar',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
