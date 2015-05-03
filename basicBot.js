@@ -2247,7 +2247,7 @@
             },
 
             linkCommand: {
-                command: 'link',
+                command: 'musica',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
