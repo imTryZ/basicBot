@@ -113,7 +113,7 @@
     "jointime": "/me [@%%NAMEFROM%%] @%%USERNAME%% esteve na sala por %%TIME%%.",
     "kickrank": "/me [@%%NAME%%] Você não pode kickar alguém do mesmo rank ou superior!",
     "kick": "[@%%NAME%%], @%%USERNAME%% você está sendo kickado da comunidade por %%TIME%% minutos.",
-    "kill": "/me Desligando...",
+    "kill": "/me O caliBOT está sendo desligado!",
     "logout": "/me [@%%NAME%%] Deslogando %%BOTNAME%%",
     "rouletteleave": "/me @%%NAME%% deixou a roleta!",
     "songlink": "/me [@%%NAME%%] Link para a música atual: %%LINK%%",
