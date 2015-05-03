@@ -96,7 +96,7 @@
     "chatcleared": "/me [@%%NAME%%] O chat foi limpo.",
     "deletechat": "/me [@%%NAME%%] O chat de %%USERNAME%% foi limpo.",
     "commandslink": "/me Comandos do %%BOTNAME%%: http://goo.gl/U2R2Nq",
-    "eatcookie": "/me ama cookies.",
+    "fusyontroca": "/me Claro que isso não é um trocadilho.",
     "nousercookie": "/em Não vejo %%NAME%% na sala. Vou comer esse cookie sozinho.",
     "selfcookie": "/me @%%NAME%%, você é mesquinho, né? Dando cookies a si mesmo, bah. Compartilhe um pouco com os outros!",
     "cookie": "/me @%%NAMETO%%, @%%NAMEFROM%% %%COOKIE%%",
