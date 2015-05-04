@@ -10,7 +10,7 @@
     "online": "/me %%BOTNAME%% acaba de ser iniciado!",
 
 
-    "welcome": "Bem vindo(a), %%NAME%%",
+    "welcome": "Bem vindo(a) %%NAME%%, o link de nosso fórum é http://forum.calipunk.com/, Não esqueça de se cadastrar!",
     "welcomeback": "Bem vindo(a) de volta, %%NAME%%",
     "songknown": "@%%NAME%%, essa música está no histórico.",
     "timelimit": "@%%NAME%%, sua música tem duração maior que %%MAXLENGTH%% minutos. Você precisa de permissão para tocar músicas longas.",
