@@ -2004,7 +2004,7 @@
             },
 
             ghostbusterCommand: {
-                command: 'ghostbuster',
+                command: 'fantasma',
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -2110,7 +2110,7 @@
             },
 
             historyskipCommand: {
-                command: 'historyskip',
+                command: 'hskip',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
