@@ -70,7 +70,7 @@
     "afklimit": "Limite AFK",
     "autodisable": "autodisable",
     "autoskip": "autoskip",
-    "newblacklisted": "/me [@%%NAME%%] Essa música está na lista negra %%BLACKLIST%%! [ %%AUTHOR%% - %%TITLE%% - %%MID%% ]",
+    "newblacklisted": "/me Essa música foi denominada imprópria por um membro da equipe e por isso, será pulada.",
     "blinfo": "[@%%NAME%%] Info da Blacklist - autor: %%AUTHOR%%, título: %%TITLE%%, ID: %%SONGID%%",
     "blacklist": "blacklist",
     "cycleguard": "cycleguard",
