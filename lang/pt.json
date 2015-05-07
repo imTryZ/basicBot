@@ -16,7 +16,7 @@
     "songknown": "@%%NAME%%, essa música está no histórico.",
     "timelimit": "@%%NAME%%, sua música tem duração maior que %%MAXLENGTH%% minutos. Você precisa de permissão para tocar músicas longas.",
     "permissionownsong": "/me :up: @%%NAME%% tem permissão para tocar música de própria autoria!",
-    "isblacklisted": "/me Essa música está na lista negra %%BLACKLIST%%! Pulando música...",
+    "isblacklisted": "/me Essa música viola as regras de nossa sala e por isso será pulada.",
 
 
     "isopen": "A roleta foi iniciada! Use !entrar para participar!",
