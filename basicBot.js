@@ -1570,7 +1570,7 @@
             },
 
             ballCommand: {
-                command: ['8ball', 'ask'],
+                command: ['resp', 'responda'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
