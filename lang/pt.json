@@ -11,7 +11,7 @@
     "online": "/me %%BOTNAME%% acaba de ser iniciado!",
 
 
-    "welcome": "Bem vindo(a) %%NAME%%, o link de nosso fórum é http://forum.calipunk.com/, Não esqueça de se cadastrar!",
+    "welcome": "Bem vindo(a) %%NAME%%, o link de nosso fórum é http://forum.calipunk.com/, não esqueça de se cadastrar!",
     "welcomeback": "Bem vindo(a) de volta, %%NAME%%",
     "songknown": "@%%NAME%%, essa música está no histórico.",
     "timelimit": "@%%NAME%%, sua música tem duração maior que %%MAXLENGTH%% minutos. Você precisa de permissão para tocar músicas longas.",
@@ -22,7 +22,7 @@
     "isopen": "A roleta foi iniciada! Use !entrar para participar!",
     "winnerpicked": "/me Um vencedor foi escolhido! @%%NAME%% ganhou a posição %%POSITION%%.",
     
-    "ball": "/me A pergunta de %%NAME%% foi: \"%%QUESTION%%\" e a resposta de %%BOTNAME%% é: \"%%RESPONSE%%\"",
+    "ball": "/me %%NAME%% perguntou: \"%%QUESTION%%\" e a resposta é: \"%%RESPONSE%%\"",
     "notghosting": "[%%NAME1%%] %%NAME2%% não virou fantasma.",
     "ghosting": "[%%NAME1%%] %%NAME2%% deve ter virado fantasma.",
 
