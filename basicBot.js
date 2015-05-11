@@ -278,7 +278,7 @@
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
-            commandLiteral: "!",
+            commandLiteral: ".",
             blacklists: {
                 NSFW: "https://rawgit.com/imTryZ/basicBot-customization/master/blacklists/BL1.json",
                 OP: "https://rawgit.com/imTryZ/basicBot-customization/master/blacklists/ExampleOPlist.json"
